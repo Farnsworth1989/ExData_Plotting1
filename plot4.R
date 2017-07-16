@@ -18,7 +18,7 @@ cut_data$Time<-as.POSIXct(strptime(paste(cut_data$Date,cut_data$Time),
 
 ## open the png file device (note that width and height default to 480 pixels)
 png(filename="plot4.png")
-## sets the plot format to be 1x1 (just in case it is not in the default)
+## sets the plot format to be 2x2
 par(mfrow=c(2,2))
 ## create the required plots
 # 1st plot:
